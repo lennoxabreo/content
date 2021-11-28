@@ -89,7 +89,7 @@ Keep the rest of the policy, but also require that images should be packaged wit
 Require that all types of content should be packaged with the extension:
 
 ```json
-"content_security_policy": "default-src 'self'"
+"content_security_policy": "default-src 'self'; object-src 'self'"
 ```
 
 ### Invalid examples
